@@ -16,6 +16,7 @@ height: 80px;
 background:url(../img/content_bg.png);
 margin-right:7px;
 margin-left:7px;
+margin-bottom: 10px;
 }
 .col-1{
 margin-left:auto;
@@ -25,17 +26,17 @@ padding-left: 0;
 margin-right:auto
 
 }
-.t-nav{
+.col-7 .t-nav{
 display: Table;
 list-style: none;
 width: 700px;
 float:right;
 margin-bottom: 0;
 }
-.t-item{
+.col-7 .t-item{
 display: table-cell;
 text-align: right;
-font: 12px Arial, Verdana, Impact, sans serif;
+font: 12px Arial, Verdana, Impact, sans-serif;
 width: 100%;
 padding-left: 40px;
 letter-spacing: 1px;
@@ -66,7 +67,7 @@ margin-top: 70px;
 
 .left-content{
  color:#ffffff;
- font: 13px/1.6 Arial, Verdana, Impact, sans serif;
+ font: 13px/1.6 Arial, Verdana, Impact, sans-serif;
  line-height:1.5;
  word-spacing: 1.5;
 
@@ -96,7 +97,7 @@ margin-top: 70px;
     text-transform: uppercase;
     font-weight: bold;
     width: 160px;
-    font: 13px/1.6 Arial, Verdana, Impact, sans serif;
+    font: 13px/1.6 Arial, Verdana, Impact, sans-serif;
     background-color: transparent;
     border: 2px solid #ffffff;
     color:#ffffff;
@@ -109,3 +110,58 @@ margin-top: 70px;
  .btn:last-child{
      margin-left: 15px;
  }
+ .col-4 .t-nav{
+    display:table;
+    margin-top:40px;
+    float: left;
+    width:50px;
+    padding-left:0;
+    color:#545656;
+}
+ .col-4 .t-item{
+    display: table-cell;
+    text-align: left;
+    
+    width: 100%;
+    padding-right:15px;
+   
+ }
+ .col-4 a{
+    color:#545656;
+    font: 12px Comic, Verdana, Impact, sans-serif;
+ }
+.col-4 a:hover{
+    font: 18px Comic, Verdana, Impact, sans-serif;
+    color: #1589ee;
+}
+.availability {
+    margin-top: -90px;
+}
+.amazing{
+    height: 100px;
+    background-color: #ffffff;
+}
+.availability .t-nav{
+    display: Table;
+    list-style: none;
+    width: 780px;
+    float:right;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/content_bg.png);
+    padding-left: 0;
+    }
+.availability .t-item{
+    display: table-cell;
+    text-align: right;
+    width: 100%;
+    padding-right: 3px;
+   }
+   .availability .t-item:last-of-type {
+    padding-right:o;
+   }
+   .availability a{
+       height: 97px;
+       width: 258px;
+   }
