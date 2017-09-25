@@ -4,36 +4,33 @@ padding-top:5px;
 padding-left: 0;
 padding-right: 0;
 }
+.container{
+    min-width: 480px;
+    max-width: 1300px;
+}
 
 .header{
 background: url(../img/header_bg.png);
 margin-top: 5px;
-margin-right:7px;
-margin-left:7px;
 height: 80px;
 }
 .content{
 background:url(../img/content_bg.png);
-margin-right:7px;
-margin-left:7px;
 margin-bottom: 10px;
 }
 .col-1{
-margin-left:auto;
-padding-left: 0;
-}
-.col-7{
-margin-right:auto
 
 }
-.col-7 .t-nav{
+.col-11{
+
+
+}
+.col-11 .t-nav{
 display: Table;
 list-style: none;
-width: 700px;
-float:right;
 margin-bottom: 0;
 }
-.col-7 .t-item{
+.col-11 .t-item{
 display: table-cell;
 text-align: right;
 font: 12px Arial, Verdana, Impact, sans-serif;
@@ -43,7 +40,7 @@ letter-spacing: 1px;
 }
 
 
-.col-7 a {
+.col-11 a {
 text-decoration: none;
 font-weight: bold;
 text-transform: uppercase;
@@ -56,20 +53,20 @@ text-decoration: underline;
 }
 
 .left-content{
-margin-left:auto;
-padding:120px 0 0 0;
+ padding:130px 20px 0 40px;
+
 }
 
 .right-content{
-margin-right:auto;
-margin-top: 70px;
+ padding-top: 70px;
+ padding-right: 40px;
 }
 
 .left-content{
  color:#ffffff;
  font: 13px/1.6 Arial, Verdana, Impact, sans-serif;
  line-height:1.5;
- word-spacing: 1.5;
+
 
 }
 .left-content h1{
@@ -78,8 +75,8 @@ margin-top: 70px;
   letter-spacing: 1.2px;
 }
 .left-content h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+   padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 30x;
     
 }
@@ -92,16 +89,19 @@ margin-top: 70px;
  width: 90%;
  margin-left: 30px;
 }
+.button{
+    padding-top:20px;
+}
 .btn{
-    border-radius:18px;
+    border-radius: 18px;
     text-transform: uppercase;
     font-weight: bold;
     width: 160px;
     font: 13px/1.6 Arial, Verdana, Impact, sans-serif;
     background-color: transparent;
     border: 2px solid #ffffff;
-    color:#ffffff;
-    margin-top: 20px;
+    color: #ffffff;
+   
 }
 .btn:hover, .btn:active {
     color:#1f3542;
@@ -110,7 +110,7 @@ margin-top: 70px;
  .btn:last-child{
      margin-left: 15px;
  }
- .col-4 .t-nav{
+ .left-content .t-nav{
     display:table;
     margin-top:40px;
     float: left;
@@ -118,7 +118,7 @@ margin-top: 70px;
     padding-left:0;
     color:#545656;
 }
- .col-4 .t-item{
+ .left-content .t-item{
     display: table-cell;
     text-align: left;
     
@@ -126,20 +126,26 @@ margin-top: 70px;
     padding-right:15px;
    
  }
- .col-4 a{
+ span{
+    font-weight: bold;  
+ }
+ .left-content a{
     color:#545656;
     font: 12px Comic, Verdana, Impact, sans-serif;
  }
-.col-4 a:hover{
+.left-content a:hover{
     font: 18px Comic, Verdana, Impact, sans-serif;
     color: #1589ee;
 }
 .availability {
     margin-top: -90px;
 }
-.amazing{
-    height: 100px;
+.amazing, .features {
     background-color: #ffffff;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    height: 150px;
 }
 .availability .t-nav{
     display: Table;
@@ -151,12 +157,14 @@ margin-top: 70px;
     margin-right: auto;
     background: url(../img/content_bg.png);
     padding-left: 0;
+    z-index: 10;
     }
-.availability .t-item{
+   .availability .t-item{
     display: table-cell;
     text-align: right;
     width: 100%;
-    padding-right: 3px;
+    padding-right: 2px;
+    padding-left: 2px;
    }
    .availability .t-item:last-of-type {
     padding-right:o;
@@ -165,3 +173,123 @@ margin-top: 70px;
        height: 97px;
        width: 258px;
    }
+   
+   .title h1{
+       text-align: center;
+   }
+   .title{
+    height: 100%;
+    background-image: url(..//img/title.png);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: center;
+   }
+   
+  
+  .phones, .more_features{
+    background-color: #ffffff;
+    padding-bottom: 15px;
+  
+  }
+ 
+  .features{
+      height: 350px;
+  }
+  .features .col{
+      position: relative;
+  }
+  .features img{
+      position: absolute;
+      bottom: 110px;
+      right: 140px;
+      left: 140px;
+  }
+  .how{
+      height: 150px;
+      padding-bottom: 50px;
+  }
+  .blue_install, .how{
+      background-color: #2B8CD9;
+      color: #ffffff;
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 15px;
+  }
+  .installation, .image_tabs {
+      padding-left: 70px;
+      
+  }
+  .installation img {
+      float:left;
+      
+  }
+  .list p, .list h3{
+      margin-left:50px;
+      padding-left: 25px;
+  }
+  .list{
+      padding-top: 40px;
+  }
+  .more_features{
+        padding-bottom: 50px;
+    }
+  .more_features h3{
+      font-size:20px;
+      font-weight: bold;
+  }
+  .right{
+      margin-left:25px;
+  }
+  .left{
+      margin-right:25px;
+  }
+  .circle-right img{
+      float: right;
+      margin-left:15px;
+  }
+  .right h3, .right p{
+    padding-left: 15px;
+    text-align: right;
+    padding-top: 10px;
+      
+  }
+  .right p, .left p{
+    font: 12px Comic, Verdana, Impact, sans-serif;  
+  }
+  .left, .right{
+      padding-bottom: 50px;
+  }
+  .circle-left img {
+      float:left;
+      margin-right: 15px;
+      
+  }
+  .left p, .left h3{
+   padding-top:10px;
+    padding-left: 25px; 
+    text-align:left;
+  }
+ 
+  .circle-left, .circle-right{
+      padding: 130px 0 0 0;
+  }
+  .circle-right{
+      padding-left: 10px;
+  }
+  .circle-left{
+    padding-right: 10px;
+  }
+ 
+ .iphone{
+     background-image: url(..//img/iphone6.png);
+     background-repeat: no-repeat;
+     background-position-x: center;
+ }
+  #bag{
+      margin-right: 25px;
+      margin-left: 0;
+  }
+  #middle{
+      margin-left: 25px;
+      margin-right:0;
+  }
