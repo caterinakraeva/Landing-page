@@ -18,13 +18,7 @@ height: 80px;
 background:url(../img/content_bg.png);
 margin-bottom: 10px;
 }
-.col-1{
 
-}
-.col-11{
-
-
-}
 .col-11 .t-nav{
 display: Table;
 list-style: none;
@@ -53,7 +47,7 @@ text-decoration: underline;
 }
 
 .left-content{
- padding:130px 20px 0 40px;
+ padding:130px 20px 0 60px;
 
 }
 
