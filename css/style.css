@@ -231,7 +231,8 @@ text-decoration: underline;
       padding-top: 40px;
   }
   .more_features{
-        padding-bottom: 50px;
+        height: 630px;
+        padding-bottom: 20px;
     }
   .more_features h3{
       font-size:20px;
