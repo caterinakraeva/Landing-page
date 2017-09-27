@@ -141,6 +141,7 @@ text-decoration: underline;
     padding-bottom: 15px;
     height: 150px;
 }
+
 .availability .t-nav{
     display: Table;
     list-style: none;
@@ -168,7 +169,7 @@ text-decoration: underline;
        width: 258px;
    }
    
-   .title h1{
+   .title h1, .start h1{
        text-align: center;
    }
    .title{
@@ -189,8 +190,15 @@ text-decoration: underline;
   .features{
       height: 350px;
   }
+  .features h3{
+      font-weight: bolder;
+      padding-bottom:15px;
+  }
   .features .col{
       position: relative;
+      padding-right: 40px;
+      padding-left: 40px;
+      
   }
   .features img{
       position: absolute;
@@ -198,11 +206,49 @@ text-decoration: underline;
       right: 140px;
       left: 140px;
   }
+  .features a{
+      display:block;
+      color:#1f3542;
+  }
+  .features a:hover {
+    color:#1589ee;
+    text-decoration: none;
+  }
+ 
+  .features p:hover, .features p{
+   color:grey;
+  }
+  .easy{
+      height: 100px;
+      background-image: url(..//img/easy.png);
+      background-repeat: no-repeat;
+      background-position-y: top; 
+      background-position-x: center;
+      margin-bottom: 10px;
+  }
+
+  .heart{
+    height: 100px;
+    background-image: url(..//img/heart.png);
+    background-repeat: no-repeat;
+    background-position-y: top; 
+    background-position-x: center;
+    margin-bottom: 10px;
+    
+}
+.unlimited{
+    height: 100px;
+    background-image: url(..//img/unlimited.png);
+    background-repeat: no-repeat;
+    background-position-y: top; 
+    background-position-x: center;
+    margin-bottom: 10px;
+}
   .how{
       height: 150px;
       padding-bottom: 50px;
   }
-  .blue_install, .how{
+  .blue_install, .how, .download{
       background-color: #2B8CD9;
       color: #ffffff;
       padding-top: 50px;
@@ -287,4 +333,29 @@ text-decoration: underline;
   #middle{
       margin-left: 25px;
       margin-right:0;
+  }
+  .download{
+    height: 280px;
+    padding-top: 80px;
+  }
+  .start{
+    height: 100%;
+    background-image: url(..//img/title.png);
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x: center;
+  }
+  .store_btn{
+      border:none;
+      background-color: transparent;
+      margin-top:-60px;
+      
+  }
+ 
+  .store_btn img{
+    border-radius: 100px;
+  }
+  .view{
+      background-color: #ffffff;
+      height:150px;
   }
