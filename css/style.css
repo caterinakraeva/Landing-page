@@ -206,16 +206,16 @@ text-decoration: underline;
       right: 140px;
       left: 140px;
   }
-  .features a{
+  .features a, .circle-left a, .circle-right a{
       display:block;
       color:#1f3542;
   }
-  .features a:hover {
+  .features a:hover, .circle-left a:hover, .circle-right a:hover {
     color:#1589ee;
     text-decoration: none;
   }
  
-  .features p:hover, .features p{
+  .features p:hover, .features p, .circle-left p, .circle-left p:hover, .circle-right p, .circle-right p:hover{
    color:grey;
   }
   .easy{
